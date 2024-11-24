@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+          <div>
+            <img src="img/job.jpeg" alt="Avatar">
+          </div>
+          <div class="name">
+            <h1>Liliya Mikhalchanka</h1>
+            <p>Front-end developer</p>
+          </div>
+        </header>
+        <main>
+          <section>
+          <h2>Contact</h2>
+          <p>email: <a href="mailto:4.7.lilushka-lilu@gmail.com">4.7.lilushka-lilu@gmail.com</a></p>
+          </section>
+          <section>
+          <h2>About</h2>
+          <p>I work as an economist in Minsk in a private company. I'm more interested in more creative work, so I'm thinking about changing my profession, and my goal is to gain practical experience in web development.</p>
+          </section>
+          <section>
+            <h2>Skills</h2>
+            <em>basic, but ready to explore</em>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Example of my code</h2>
+            <pre>
+              <code>
+                const modal = document.querySelector('.modal');
+                const btnCloseModal = document.querySelector('.btn__close-modal');
+                const btnSuccess = document.querySelector('.success__button');
+                const btnSubmit = document.querySelector('.button__submit');
+
+                const closeModal = function () {
+                    overlay.classList.add('hidden');
+                    modal.classList.add('hidden');
+                };
+                btnCloseModal.addEventListener('click', closeModal);
+                btnSuccess.addEventListener('click', closeModal);
+            </code>
+            </pre>
+          </section>
+          <section>
+            <h2>Education</h2>
+            <p>Belarusian State University of Economics. 2002-2005.</p>
+          </section>
+          <section>
+            <h2>Knowledge Of Languages</h2>
+            <ul>
+              <li>English (B2)</li>
+              <li>Russian (native)</li>
+            </ul>
+          </section>
+        </main>
+        <footer>
+        <p>Author: Liliya Mikhalchanka @ 2024</p>
+      </footer>
+    </div>
+</body>
+</html>
