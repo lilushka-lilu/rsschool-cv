@@ -39,4 +39,3 @@ Belarusian State University of Economics. 2002-2005.
 
 * English (B2)
 * Russian (native)
-
